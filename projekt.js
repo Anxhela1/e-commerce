@@ -2,6 +2,7 @@
 let btn=document.querySelector(".button1"),
     spinIcon=document.querySelector(".spinner"),
      btnText=document.querySelector(".btn-text");
+     
      btn.addEventListener("click", () => {
         btn.style.cursor="wait";
         btn.classList.add("checked");
@@ -17,7 +18,7 @@ let btn=document.querySelector(".button1"),
         }, 4000) //1s=1000ms
      }
      );
-
+    
 
 function message(){
    var Name=document.getElementById('name');
